@@ -1,0 +1,7 @@
+#cloud-config
+users:
+  - default
+  - name: admin
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1y............yMweLeD/fimf/eyTc7wkdAYhn demo@hal9000.io
