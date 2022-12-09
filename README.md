@@ -82,7 +82,7 @@ That gives me the paths I need to declare this:
 ```
 export GOVC_DATASTORE='/SkyNet/datastore/Local01_2'
 export GOVC_NETWORK='/SkyNet/network/DSwitch 1-VLAN1'
-export GOVC_FOLDER=/SkyNet/vm/templates
+export GOVC_FOLDER='/SkyNet/vm/templates'
 ```
 In the folder I have downloaded my vmdk file, I run the following to copy the vmdk to the datastore I defined in GOVC_DATASTORE. Filename first, then foldername that the vm will reside in.
 
