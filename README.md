@@ -89,7 +89,7 @@ In the folder I have downloaded my vmdk file, I run the following to copy the vm
 ```
 govc import.vmdk t_rhel9-gm.vmdk t_rhel9-gm
 ```
-Now we are ready to create the virtual machine. Change RAM, vCPU, OS as desired, just be aware that the image only supports IDE controller for the boot disk we have just created. Machine will be name t_rhel9-gm.
+Now we are ready to create the virtual machine. Change RAM, vCPU, OS as desired, just be aware that the image only supports IDE controller for the boot disk we have just created. Machine will be named t_rhel9-gm.
 
 ```
 govc vm.create \
